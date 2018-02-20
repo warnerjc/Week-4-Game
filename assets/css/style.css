@@ -1,0 +1,14 @@
+.container {
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50vh;
+    border: 2px solid plum;
+    border-radius: 5px;
+}
+
+div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
