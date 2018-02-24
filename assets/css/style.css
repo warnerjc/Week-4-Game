@@ -1,14 +1,46 @@
+body {
+    background-image: url("../images/jade.jpg");
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+    font-family: 'Permanent Marker', cursive;
+}
+
+header {
+    font-size: 3em;
+    color: #d48a97;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header div {
+    margin: 20px;
+}
+
+footer {
+    clear: both;
+    height: 88px;
+    background-color: white;
+    text-align: center;
+    color: #d48a97;
+}
+
 .container {
-    width: 760px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 50vh;
-    border: 2px solid plum;
+    width: 60vw;
+    margin: auto;
     border-radius: 5px;
 }
 
-div {
-    margin-top: 20px;
-    margin-bottom: 20px;
+main div {
+    margin: 10px;
     text-align: center;
+    border-radius: 5px;
+    font-size: 3em;
+    padding: 10px;
+    background-color: white;
+    opacity: 0.9;
+    color: #807a9c;
 }
+
